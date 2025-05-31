@@ -1,0 +1,254 @@
+:root {
+  --font-family: Roboto;
+  --second-family: Raleway;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: ##2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+
+/*============================*/
+/*========== header ==========*/
+/*============================*/
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  font-family: var(--second-family), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.header-logo-accent {
+  color: var(--navy-blue);
+}
+
+.header-navigation-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-nav-link:hover {
+  color: var(--ocean);
+}
+.header-nav-link:focus {
+  color: var(--ocean);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.header-address-link:hover {
+  color: var(--ocean);
+}
+
+.header-address-link:focus {
+  color: var(--ocean);
+}
+
+/*==========================*/
+/*========== main ==========*/
+/*==========================*/
+
+/*========== hero ==========*/
+
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.hero-btn {
+  background-color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: var(--ocean);
+}
+
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+/*======== features ========*/
+
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.features-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/*========== team ==========*/
+
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--white);
+}
+.team-item-img {
+}
+.team-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+}
+
+/*======= portfolio =======*/
+
+.portfolio {
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-item-img {
+}
+.portfolio-item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/*==========================*/
+/*========= footer =========*/
+/*==========================*/
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-logo {
+  font-family: var(--second-family), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.footer-logo-accent {
+  color: var(--cloud);
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
